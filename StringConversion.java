@@ -2,7 +2,7 @@
 // We need a function that can transform a string into a number. What ways of achieving this do you know?
 //Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.
 //Begin CreditCardMask.java [Java]
-public class StringToNumber {
+private class StringToNumber {
   public static int stringToNumber(String str) {
     // I must convert the string into an integer using Integer.parseInt
     return Integer.parseInt(str);
