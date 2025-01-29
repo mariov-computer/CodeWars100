@@ -4,4 +4,9 @@
 // name + " plays banjo" 
 //name + " does not play banjo"
 // Note: Names given are always valid strings.
-//Begin CreditCardMask.java [Java]
+//Begin PlayBanjo.java [Java]
+public class Banjo{
+  public static String areYouPlayingBanjo(String name){
+  }
+}
+
