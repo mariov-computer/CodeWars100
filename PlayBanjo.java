@@ -13,7 +13,10 @@ if (name.startsWith("R") || name.startsWith("r")) {
             return name + " does not play banjo";
         }
     }
-
-  }
+ public static void main(String[] args) {
+        // Test cases
+        System.out.println(areYouPlayingBanjo("Rick")); // Rick plays banjo
+        System.out.println(areYouPlayingBanjo("Martin")); // Martin does not play banjo
+        System.out.println(areYouPlayingBanjo("rachel")); // rachel plays banjo
+    }
 }
-
